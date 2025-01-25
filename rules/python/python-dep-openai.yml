@@ -1,0 +1,11 @@
+rules:
+  - id: python-dep-openai
+    languages:
+      - python
+    r2c-internal-project-depends-on:
+      namespace: pypi
+      package: openai
+      version: ">0.0.0"
+    message: >
+      Found openai
+    severity: WARNING

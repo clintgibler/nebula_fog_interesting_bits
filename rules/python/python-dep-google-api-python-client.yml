@@ -1,0 +1,11 @@
+rules:
+  - id: python-dep-google-api-python-client
+    languages:
+      - python
+    r2c-internal-project-depends-on:
+      namespace: pypi
+      package: google-api-python-client
+      version: ">0.0.0"
+    message: >
+      Found google-api-python-client
+    severity: WARNING

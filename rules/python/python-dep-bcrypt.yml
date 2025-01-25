@@ -1,0 +1,11 @@
+rules:
+  - id: python-dep-bcrypt
+    languages:
+      - python
+    r2c-internal-project-depends-on:
+      namespace: pypi
+      package: bcrypt
+      version: ">0.0.0"
+    message: >
+      Found bcrypt
+    severity: WARNING

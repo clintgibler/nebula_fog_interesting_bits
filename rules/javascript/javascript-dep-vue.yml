@@ -1,0 +1,11 @@
+rules:
+  - id: javascript-vue
+    languages:
+      - javascript
+    r2c-internal-project-depends-on:
+      namespace: npm
+      package: vue
+      version: ">0.0.0"
+    message: >
+      Found vue
+    severity: WARNING

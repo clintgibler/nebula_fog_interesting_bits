@@ -1,0 +1,11 @@
+rules:
+  - id: javascript-dompurify
+    languages:
+      - javascript
+    r2c-internal-project-depends-on:
+      namespace: npm
+      package: dompurify
+      version: ">0.0.0"
+    message: >
+      Found dompurify
+    severity: WARNING

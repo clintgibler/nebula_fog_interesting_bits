@@ -1,0 +1,11 @@
+rules:
+  - id: files-build-sbt
+    languages:
+      - generic
+    paths:
+      include:
+        - "build.sbt"
+    pattern-regex: "\\A.*"
+    message: >
+      Found build.sbt
+    severity: WARNING

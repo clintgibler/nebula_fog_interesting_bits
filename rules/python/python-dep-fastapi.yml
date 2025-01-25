@@ -1,0 +1,11 @@
+rules:
+  - id: python-dep-fastapi
+    languages:
+      - python
+    r2c-internal-project-depends-on:
+      namespace: pypi
+      package: fastapi
+      version: ">0.0.0"
+    message: >
+      Found fastapi
+    severity: WARNING

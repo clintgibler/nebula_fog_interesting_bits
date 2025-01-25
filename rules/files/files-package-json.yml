@@ -1,0 +1,11 @@
+rules:
+  - id: files-package-json
+    languages:
+      - generic
+    paths:
+      include:
+        - "package.json"
+    pattern-regex: "\\A.*"
+    message: >
+      Found package.json
+    severity: WARNING

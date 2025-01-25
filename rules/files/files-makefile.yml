@@ -1,0 +1,11 @@
+rules:
+  - id: files-makefile
+    languages:
+      - generic
+    paths:
+      include:
+        - "Makefile"
+    pattern-regex: "\\A.*"
+    message: >
+      Found Makefile
+    severity: WARNING

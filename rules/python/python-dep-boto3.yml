@@ -1,0 +1,11 @@
+rules:
+  - id: python-dep-boto3
+    languages:
+      - python
+    r2c-internal-project-depends-on:
+      namespace: pypi
+      package: boto3
+      version: ">0.0.0"
+    message: >
+      Found boto3
+    severity: WARNING

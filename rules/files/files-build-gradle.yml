@@ -1,0 +1,11 @@
+rules:
+  - id: files-build-gradle
+    languages:
+      - generic
+    paths:
+      include:
+        - "build.gradle"
+    pattern-regex: "\\A.*"
+    message: >
+      Found build.gradle
+    severity: WARNING

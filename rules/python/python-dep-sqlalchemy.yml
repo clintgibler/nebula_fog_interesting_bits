@@ -1,0 +1,11 @@
+rules:
+  - id: python-dep-sqlalchemy
+    languages:
+      - python
+    r2c-internal-project-depends-on:
+      namespace: pypi
+      package: sqlalchemy
+      version: ">0.0.0"
+    message: >
+      Found sqlalchemy
+    severity: WARNING

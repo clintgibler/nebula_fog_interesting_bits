@@ -1,0 +1,11 @@
+rules:
+  - id: javascript-axios
+    languages:
+      - javascript
+    r2c-internal-project-depends-on:
+      namespace: npm
+      package: axios
+      version: ">0.0.0"
+    message: >
+      Found axios
+    severity: WARNING

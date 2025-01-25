@@ -1,0 +1,11 @@
+rules:
+  - id: files-dockerfile
+    languages:
+      - generic
+    paths:
+      include:
+        - "Dockerfile"
+    pattern-regex: "\\A.*"
+    message: >
+      Found Dockerfile
+    severity: WARNING
